@@ -42,7 +42,7 @@
 
     <!----Show Table & Search----->
     @if ($showTable == true)
-    <div class="w-full overflow-hidden rounded-lg shadow-xs my-4">
+    <div class="w-full overflow-hidden rounded-lg shadow-xs my-2">
         <table class="w-full whitespace-no-wrap">
             <thead>
                 <tr
@@ -108,7 +108,7 @@
     <div class="overflow-hidden shadow sm:rounded-md">
         <div class="bg-white px-4 py-5 sm:p-6">
             <div class="grid grid-cols-6 gap-6">
-                <div class="col-span-6 sm:col-span-3">
+                <div class="col-span-6 sm:col-span-6">
                     <label for="author-name" class="p-2 block text-sm font-medium text-gray-700">Publisher name</label>
                     <input type="text" wire:model.lazy="publisher_name"
                         class="w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:placeholder-gray-500 focus:bg-dark focus:border-purple-300 focus:outline-none focus:shadow-outline-purple form-input">
@@ -138,7 +138,7 @@
     <div class="overflow-hidden shadow sm:rounded-md">
         <div class="bg-white px-4 py-5 sm:p-6">
             <div class="grid grid-cols-6 gap-6">
-                <div class="col-span-6 sm:col-span-3">
+                <div class="col-span-6 sm:col-span-6">
                     <label for="author-name" class="p-2 block text-sm font-medium text-gray-700">Author name</label>
                     <input type="text" wire:model="edit_publisher_name"
                         class="w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:placeholder-gray-500 focus:bg-dark focus:border-purple-300 focus:outline-none focus:shadow-outline-purple form-input">

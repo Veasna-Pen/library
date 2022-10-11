@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{$title}}</title>
 
-
+    <link rel="stylesheet" href="{{ url('https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css') }}" />
     <link href="{{ url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap') }}"
         rel="stylesheet" />
     <link href="{{ asset('css/tailwind.output.css') }}" rel="stylesheet">
@@ -16,6 +16,7 @@
     <script src="{{ url('https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js') }}" defer></script>
     <script src="{{ url('js/focus-trap.js') }}"></script>
     <script src="{{ url('js/init-alpine.js') }}"></script>
+    <script src="{{ url('https://unpkg.com/flowbite@1.5.3/dist/flowbite.js') }}"></script>
     @livewireScripts
 
 </head>
